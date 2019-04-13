@@ -3,6 +3,7 @@
 
 void find_minmax(const vector<double> numbers, double& min, double& max)
 {
+    if (numbers.size()){
     min = numbers[0];
     max = numbers[0];
     for (double number : numbers)
@@ -15,5 +16,6 @@ void find_minmax(const vector<double> numbers, double& min, double& max)
         {
             max = number;
         }
+    }
     }
 }
