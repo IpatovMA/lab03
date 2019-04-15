@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="histogram.cpp" />
 		<Unit filename="histogram.h" />
+		<Unit filename="lab03-test/svg.cpp" />
+		<Unit filename="lab03-test/svg.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
