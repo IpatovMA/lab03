@@ -51,7 +51,7 @@ main()
     const auto bins = make_histogram(numbers, bin_count);
 
     // Вывод данных
-    show_histogram_svg(bins);
+    show_histogram_svg_7var(bins);
 
     return 0;
 }
